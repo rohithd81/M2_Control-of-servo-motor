@@ -1,0 +1,17 @@
+<circuit type="simulide_1.0" rev="1007" stepSize="1000000" stepsPS="1000000" NLsteps="100000" animate="0" >
+
+<item itemtype="Servo" CircId="Servo-1" mainComp="false" Show_id="true" Show_Val="false" Pos="716,524" rotation="0" hflip="1" vflip="1" label="Servo-1" idLabPos="-16,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" Speed="0.2 _sec/60º" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" />
+
+<item itemtype="MCU" CircId="mega328-4" mainComp="false" Show_id="true" Show_Val="false" Pos="568,628" rotation="0" hflip="1" vflip="1" label="mega328-4" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="16 MHz" Program="../AppData/Local/Temp/arduino_build_382031/servo_code.ino.hex" Auto_Load="false" Rst_enabled="false" Ext_Osc="false" Wdt_enabled="false" />
+
+<item itemtype="Ground" CircId="Ground-19" mainComp="false" Show_id="false" Show_Val="false" Pos="592,540" rotation="0" hflip="1" vflip="1" label="Ground-19" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Rail" CircId="Rail-20" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="556,508" rotation="0" hflip="1" vflip="1" label="Rail-20" idLabPos="-16,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" />
+
+<item itemtype="Connector" uid="connector-21" startpinid="Servo-1-in2" endpinid="mega328-4-PORTB1" pointList="668,540,628,540,628,740,608,740" />
+
+<item itemtype="Connector" uid="connector-22" startpinid="Rail-20-outnod" endpinid="Servo-1-in0" pointList="572,508,668,508" />
+
+<item itemtype="Connector" uid="connector-23" startpinid="Ground-19-Gnd" endpinid="Servo-1-in1" pointList="592,524,668,524" />
+
+</circuit>
