@@ -11,7 +11,10 @@
 #include <Servo.h>
 Servo myservo;
 int pos = 0;
-
+/**
+ * @brief Initialization of pins
+ * @return Declaration
+ */
 
 
 void setup()
@@ -40,7 +43,10 @@ Serial.println("Comand input online, write command to perform action");
 Serial.println("-------------------------");
 
 }
-
+/** 
+ * @brief Execution part
+ * @return Part of Execution
+ */
 void loop() {
   
 for(pos = 0; pos <= 180; pos += 1)
