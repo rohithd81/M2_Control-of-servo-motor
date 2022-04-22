@@ -39,6 +39,8 @@ A servo motor is controlled by controlling its position using Pulse Width Modula
 # Weakness
 * High torque output achieved at low speeds
 * Use more current than dc motor
+# Oppurtunities
+industrial applications, robotics, in-line manufacturing, pharmaceutics and food services.
 # Threat
 * Complex controller requires encoder and electronic support.
 * Peak torque is limited to a 1% duty cycle.
