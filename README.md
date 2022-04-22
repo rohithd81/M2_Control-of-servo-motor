@@ -5,3 +5,5 @@
 [![Cppcheck Analysis](https://github.com/rohithd81/M2_Control-of-servo-motor/actions/workflows/Cppcheck%20Analysis.yml/badge.svg)](https://github.com/rohithd81/M2_Control-of-servo-motor/actions/workflows/Cppcheck%20Analysis.yml)
 # Codiga
 ![Codiga](https://api.codiga.io/project/32945/score/svg)
+# Build on Linux
+[![Build-Linux](https://github.com/rohithd81/M2_Control-of-servo-motor/actions/workflows/Build%20on%20Linux.yml/badge.svg)](https://github.com/rohithd81/M2_Control-of-servo-motor/actions/workflows/Build%20on%20Linux.yml)
