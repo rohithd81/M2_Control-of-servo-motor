@@ -1,5 +1,5 @@
 /**
- * @file Control_of_Servo_Motor_operation.c
+ * @file Function.c
  * @author ROHITH D (rohith.d.2018.ece@ritchennai.edu.in)
  * @brief Header file for Control of Servo Motor are connected to AVR328 MCU GPIO pin
  * @version 0.1
